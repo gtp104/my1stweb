@@ -1,0 +1,86 @@
+body { background-color: lightblue;
+font-family: 'Raleway', sans-serif;
+}
+nav {
+  background-color: grey;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+  }
+nav ul li {
+  float: left;
+  top: 500px;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link {
+  color: rgb(139, 0, 81);
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+.nav-link:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+#brand .nav-link{
+  color: lightblue;
+  font-size: 14pt;
+}
+#wind .nav-link:hover {
+  color: darkred;
+}
+h1 {
+  font-size: 60pt;
+  font-family: 'Acme', sans-serif;
+  
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 30vh;
+  padding-top: 3em;
+  background: url('https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center 75% no-repeat fixed;
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  color: darkred;
+  text-shadow: 2px 2px 2px black;
+  }
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 18pt;
+}
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: darkblue
+}
+.main{
+  text-align: left;
+}
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 20vw;
+  float: right;
+}
+#windmill-pic {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2pt 4px 2px black;
+}
+#about-content {
+  width: 20vw;
+  float: right;
+}
